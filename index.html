@@ -1,48 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="uk">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <header></header>
+  </head>
+
+  <body>
+    <header>
+      <a href=""><img src="./images/webstudio.jpg" alt="logo" width="145"></a>
+      <nav>
+        <ul>
+          <li><a href="">Студія</a></li>
+          <li><a href="">Портфоліо</a></li>
+          <li><a href="">Контакти</a></li>
+        </ul>
+      </nav>
+      <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+      <a href="tel:+3809611111111" class="phone">+38 096 111 11 11</a>
+    </header>
     <main>
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button>Замовити послугу</button>
-        </section>
-        <section>
-            <h2>Наші принципи</h2>
-            <ul>
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./images/box1.png" alt="Веб на ПК"></li>
-                <li><img src="./images/box2.png" alt="Веб на смартфонах"></li>
-                <li><img src="./images/box3.png" alt="Веб на планштах"></li>
-            </ul>
-        </section>
+      <section class="hero">
+        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <button type="button">Замовити послугу</button>
+      </section>
+      <section>
+        <h2>Наші принципи</h2>
+        <ul class="principles">
+          <li class="principle">
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+          </li>
+          <li class="principle">
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+          </li>
+          <li class="principle">
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+          </li>
+          <li class="principle">
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <ul class="works">
+          <li class="work"><img src="./images/box1.jpg" alt="Веб на ПК" width="370"></li>
+          <li class="work"><img src="./images/box2.jpg" alt="Веб на смартфонах" width="370"></li>
+          <li class="work"><img src="./images/box3.jpg" alt="Веб на планштах" width="370"></li>
+        </ul>
+      </section>
+      <section class="team">
+        <h2>Наша команда</h2>
+        <ul class="team-members">
+          <li>
+            <img src="./images/demianenko.jpg" alt="Фото" width="270">
+            <p class="name">Ігор Дем'яненко</p>
+            <p lang="en" class="position">Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/repina.jpg" alt="Фото" width="270">
+            <p class="name">Ольга Рєпіна</p>
+            <p lang="en" class="position">Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/tarasov.jpg" alt="Фото" width="270">
+            <p class="name">Микола Тарасов</p>
+            <p lang="en" class="position">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/yermakov.jpg" alt="Фото" width="270">
+            <p class="name">Михайло Єрмаков</p>
+            <p lang="en" class="position">UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+      <address>
+        <a href="/"><img src="./images/webstudio.jpg" alt="logo" width="145"></a>
+        м. Київ, пр-т Лесі Українки, 26<br>
+        info@devstudio.com<br>
+        +38 096 111 11 11
+      </address>
+    </footer>
+  </body>
 </html>
